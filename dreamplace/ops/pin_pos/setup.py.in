@@ -25,7 +25,7 @@ print("cuda_flags = %s" % (' '.join(cuda_flags)))
 
 cub_dir = "${CUB_DIR}"
 
-include_dirs = [cub_dir, ops_dir]
+include_dirs = [ops_dir]
 lib_dirs = [utility_dir]
 libs = ['utility'] 
 
